@@ -1,0 +1,105 @@
+body {
+  margin: 20px 15px 10px 15px;
+}
+
+#speech-info {
+  text-align: center;
+}
+
+#buttons {
+  min-width: 85px;
+  text-align: center;
+  margin-top: 15px;
+  white-space: nowrap;
+}
+#buttons > img {
+  vertical-align: top;
+}
+
+.button-1 {
+  cursor: pointer;
+  border: 2px outset;
+  border-radius: 5px;
+  background-color: #e4e4e4;
+  font-size: x-large;
+  color: #757575;
+  padding: 3px;
+  text-shadow: 1px 1px white;
+}
+.button-1:active {
+  border: 2px inset;
+}
+.button-1:hover {
+  color: #606060;
+}
+
+#btnRewind, #btnForward {
+  margin: 0 1px;
+  font-size: small;
+  vertical-align: text-bottom;
+}
+
+#highlight {
+  margin-top: 15px;
+  width: 350px;
+  height: 300px;
+  border: 1px solid lightgray;
+  padding: 0 5px 0 10px;
+  background-color: #ffefd5;
+  font-size: large;
+  overflow: auto;
+  word-wrap: break-word;
+  position: relative;
+}
+#highlight span.active {
+  background: yellow;
+}
+
+#resize > i {
+  position: absolute;
+  right: 15px;
+  font-size: medium;
+  color: lightgray;
+  cursor: pointer;
+}
+
+#footer {
+  margin-top: 10px;
+  text-align: center;
+  font-size: smaller;
+  line-height: 1.3em;
+  color: #888;
+}
+#footer:not(.announcement) a {
+  color: #aaa;
+}
+
+#status {
+  min-width: 250px;
+  color: red;
+  text-align: center;
+  display: none;
+}
+
+#attribution {
+  margin-top: 10px;
+  text-align: center;
+  font-size: smaller;
+}
+#attribution a {
+  color: #888;
+  text-decoration: none;
+}
+
+.google-logo span:nth-child(1), .google-logo span:nth-child(4) {
+  color: #4885ed;
+}
+.google-logo span:nth-child(2), .google-logo span:nth-child(6) {
+  color: #db3236;
+}
+.google-logo span:nth-child(3) {
+  color: #f4c20d;
+}
+.google-logo span:nth-child(5) {
+  color: #3cba54;
+}

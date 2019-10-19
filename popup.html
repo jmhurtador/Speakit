@@ -1,5 +1,30 @@
-<!DOCTYPE html>  
-<html>    <head>      <style>        button {          height: 30px;          width: 30px;          outline: none;        }      </style>    </head>;    <body>      <button></button>    
-    <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/"         title="Flaticon">www.flaticon.com</a></div>
-</body>  
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TalkToMe</title>
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/popup.css">
+</head>
+
+<body>
+    <div id="warning">
+        <h1 style="font-weight:300;">Speech Recognition Speech SDK not found
+            (microsoft.cognitiveservices.speech.sdk.bundle.js missing).</h1>
+    </div>
+    <div id="content" style="display:none">
+        <div id="buttons">
+            <button id="startRecognizeOnceAsyncButton">Start SpeakIt</button>
+        </div>
+    </div>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/microsoft.cognitiveservices.speech.sdk.bundle-min.js"></script>
+    <script src="js/microsoft.cognitiveservices.speech.sdk.bundle.js"></script>
+    <script src="js/es6-promise.auto.min.js"></script>
+    <script src="js/popup.js"></script>
+
+</body>
+
 </html>
